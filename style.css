@@ -1,0 +1,154 @@
+.text-justify p {
+    text-align: justify;
+}
+.navbar{
+    margin: 10px;
+    background-color: aqua;
+    background:rgb(31, 29, 30)
+}
+.logo{
+    margin-top: 50px;
+    padding-left: 45px;
+    margin-bottom: 30px;
+}
+button {
+    align-content: left;
+}
+.body {
+    background-color: pink;
+    size-adjust: 50px;
+}
+
+.row-12 {
+    padding: 100%;
+    margin-top: auto;
+}
+footer {
+    border:black
+}
+#custom-footer {
+    background-color: rgb(242, 188, 206);
+    padding: 20px 0;
+}
+.food-speciality{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(224, 39, 131);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.footer-title {
+    color: rgb(250, 10, 178);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.footer-title + hr {
+    border-color: rgb(101, 62, 90);
+    margin: 5px auto;
+    width: 80%;
+}
+.paragraph{
+    color:rgb(5, 3, 4);
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+
+.footer-description {
+    color: rgb(130, 46, 88);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+
+    font-weight: bold;
+    margin: 10px 0;
+
+}
+
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links a {
+    margin: 15px 0;
+    display: inline-block;
+}
+
+
+@media (max-width: 768px) {
+    .col-2, .col-5, .col-3 {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .footer-title {
+        font-size: 1.2rem;
+    }
+
+    .footer-description {
+        font-size: 0.9rem;
+    }
+
+    .social-links {
+        margin-top: 20px;
+    }
+}
+/* Base Styles */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Mobile-First Responsive Styles */
+  .container {
+    padding: 1rem;
+  }
+  
+  .card {
+    margin-bottom: 1rem;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
+  /* Tablet and Desktop Styles */
+  @media (min-width: 768px) {
+    .container {
+      padding: 2rem;
+    }
+  
+    .col-4 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      padding: 3rem;
+    }
+  
+    .col-4 {
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+    }
+  }
